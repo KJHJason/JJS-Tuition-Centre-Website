@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact Us</title>
+		<link rel = "icon" href= "images/icon.png" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/font.css"/>
+		<link rel="stylesheet" href="css/commoncss.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- remember to use bootstrap 3 if possible and responsive web design-->
+		<style>
+			input[type=text], input[type=email], input[type=number], input, select, textarea {
+				width: 100%;
+				padding: 12px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				resize: vertical;
+			}
+
+			label {
+				padding: 12px 12px 12px 0;
+				display: inline-block;
+			}
+
+			input[type=submit] {
+				background-color: #1d75bd;
+				color: white;
+				padding: 12px 20px;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			input[type=submit]:hover {
+				background-color: #10446D;
+			}
+
+			.container-fluid3 {
+				border-radius: 5px;
+				background-color: #f2f2f2;
+				padding: 20px;
+			}
+			
+			p{
+				color: #1d75bd;
+			}
+			
+			*{
+				box-sizing: border-box;
+			}
+			
+			
+			.col-md-4{
+				border-style: solid;
+				border-color: #1d75bd;
+			}
+			
+			hr{
+				height: 2px;
+				color: #1d75bd;
+				background-color: #1d75bd;
+			}
+			
+			h1{
+				color: #1d75bd;
+				font-weight: bold;
+			}
+			
+			h3{
+				color: #1d75bd;
+			}
+			
+			h4{
+				color: #1d75bd;
+			}
+			
+			h6{
+				color: #1d75bd;
+			}
+			
+			#table{
+				display: table;
+			}
+			
+			.trow{
+				display: table-row;
+			}
+			
+			.col-30 {
+				width: 35%;
+				display: table-cell;
+				vertical-align: top;
+			}
+
+			.col-65 {
+				width: 65%;
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			@media screen and (max-width: 600px) {
+			.col-35, .col-65, .trow, #table, input[type=submit] {
+				width: 100%;
+				margin-top: 0;
+				display: block;
+			}
+			}
+			
+			.mapouter{
+				position:relative;
+				text-align:right;
+				height:200px;
+				width:100%;
+			}
+			
+			.gmap_canvas {
+				overflow:hidden;
+				background:none!important;
+				height:200px;
+				width:100%;
+			}
+			
+			
+			
+		</style>
+	</head>
+	<body>
+		<!-- navigation bar-->
+				<div class="bluebg" align="center">
+			<a href="home.html"><img src="images/logo.png" alt="JJS logo"/></a>
+		</div>
+		<div class="container">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav">
+						<li class="navtext"><a href="home.html" style="color: #1d75bd;">Home</a></li>
+						<li class="navtext"><a href="programmes.html" style="color: #1d75bd;">Programmes</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle navtext" data-toggle="dropdown" style="color: #1d75bd;">About Us<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li class="dropdownlink"><a href="aboutus.html" style="color: #1d75bd;">Company Information</a></li>
+								<li class="dropdownlink"><a href="teachersect.html" style="color: #1d75bd;">Our Best Teachers</a></li>
+								<li class="dropdownlink"><a href="testimonial.html" style="color: #1d75bd;">Testimonial</a></li>
+							</ul>
+						</li>
+						<li class="navtext"><a href="contactus.html" style="color: #1d75bd;">Contact Us</a></li>
+						<li class="navtext"><a href="enrol.html" style="color: #1d75bd;">Enrolment</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		
+		<!-- start coding your own html page below this line-->
+		<div>
+			<div class="container">
+				<div class="col-md-4">
+					<div align="center">
+						<h1>
+							<span class="glyphicon glyphicon-pencil"></span>
+							Front Desk Opening Hours:
+						</h1>
+						<h3>
+							Monday - Friday: 12pm - 7pm
+							<br/>
+							Saturday - Sunday: 7am - 12pm
+							<br/>
+						</h3>
+						<h6>
+							Closed on public holidays and observed public holidays
+						</h6>
+					</div>
+			
+					<hr/>
+			
+					<div align="center">
+						<h1>
+							<span class="glyphicon glyphicon-envelope"></span>
+							Email us at:
+						</h1>
+						<h4>enquiry@JJSTuitionCentre.com.sg</h4>
+					</div>
+			
+					<hr/>
+			
+					<div align="center">
+						<h1>
+							<span class="glyphicon glyphicon-earphone"></span>
+							Office Hotline:
+						</h1>
+						<h3>
+						+65 6334 7832
+						</h3>
+						<h1>Open Hours:</h1>
+						<h3>
+							Monday - Friday: 10am - 7pm
+							<br/>
+							Saturday - Sunday: 12pm - 5pm
+						</h3>
+					</div>
+			
+					<hr/>
+			
+					<div align="center">
+						<h1>
+							<span class="glyphicon glyphicon-map-marker"></span>
+							Find Us:
+						</h1>
+						<h3>
+							180 Ang Mo Kio Ave 8
+							<br/>
+							Singapore 569830
+						</h3>
+						<div class="mapouter">
+							<div class="gmap_canvas">
+								<iframe width="100%" height="200px" id="gmap_canvas" src="https://maps.google.com/maps?q=nanyang%20poly&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+		
+				<div class="col-md-8">
+					<h1 align="center" style="font-family: navi;">
+						<span class="glyphicon glyphicon-send"></span>
+						Send Us A Message
+					</h1>
+					<form action="receivecontact.html" method="post" name="contact us">
+						<div align="center">
+							<div id="table" class="row">
+								<div class="trow">
+									<div class="col-30">
+										<label for="Fname">
+										<h1 style="font-weight: bold;">
+											*First Name:
+										</h1>
+										</label>
+									</div>
+									<div class="col-65">
+										<h3>
+											<input id="Fname" required="required" style="color: black;" type="text" name="FirstName" placeholder="John"/>
+										</h3>
+									</div>
+								</div>
+						
+								<div class="trow">
+									<div class="col-30">
+										<label for="Lname">
+										<h1 style="font-weight: bold;">
+											*Last Name: 
+										</h1>
+										</label>
+									</div>
+									<div class="col-65">
+										<h3>
+											<input id="Lname" required="required" style="color: black;" type="text" name="LastName" placeholder="Ang"/>
+										</h3>
+									</div>
+								</div>
+							
+								<div class="trow">
+									<div class="col-30">
+										<label for="email">
+										<h1 style="font-weight: bold;">
+											*Your Email:
+										</h1>
+										</label>
+									</div>
+									<div class="col-65">
+										<h3>
+											<input id="email" required="required" style="color: black;" type="email" name="email" placeholder="JohnAng@abc.com"/>
+										</h3>
+									</div>
+								</div>
+							
+								<div class="trow">
+									<div class="col-30">
+										<label for="mobile">
+										<h1 style="font-weight: bold;">
+											*Mobile No: 
+										</h1>
+										</label>
+									</div>
+									<div class="col-65">
+										<h3>
+											<input style="color: black;" id="mobile" required="required" name="phonenumber" placeholder="87654321" maxlength="8"/>
+										</h3>
+									</div>
+								</div>
+								
+								<div class="trow">
+									<div class="col-30">
+										<h1 style="font-weight: bold;">
+											Message:
+										</h1>
+									</div>
+									<div class="col-65">
+										<h3 style="color: black;" align="center">
+											<textarea rows="15" name="message" required="required"></textarea>
+										</h3>
+									</div>
+								</div>
+								<div class="trow">
+									<div class="col-30"></div>
+									<div class="col-65" align="center">
+										<h3>
+											<input style="width: 100px;" value="Clear" type="reset"/>
+											<input style="width: 100px;" value="Send" type="submit"/>
+										</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<br/><br/>
+		<!-- hyperlinks and company copyright-->
+		<div class="bluebg" align="center">
+			<div class="container">
+				<br/>
+				<div class="col-sm-4">
+					<a href="home.html"><img src="images/logo.png" alt="JJS logo"/></a>
+				</div>
+				<div class="col-sm-4" align="center" >
+					<h5 class="footerhead">Useful links</h5>
+					<h6><a href="tc.html" class="bottombar">Terms &amp; Conditions</a></h6>
+					<h6><a href="privacy.html" class="bottombar">Privacy Policy</a></h6>
+					<h6><a href="faq.html" class="bottombar">FAQ</a></h6>
+				</div>
+				<div class="col-sm-4" align="center">
+					<h5 class="footerhead">Contact Details</h5>
+					<h6 class="bottombar1">Phone number: +65 6334 7832</h6>
+					<h6 class="bottombar1">Address: 180 Ang Mo Kio Avenue 8. Singapore 569830</h6>
+					<h6 class="bottombar1">Email: <a href="mailto:enquiry@JJSTuitionCentre.com.sg" style="text-decoration: underline;">enquiry@JJSTuitionCentre.com.sg</a></h6>
+				</div>
+			</div>
+			<h6 class="bottombar1">COPYRIGHT &copy; 2020 JJS Tuition Centre. ALL RIGHTS RESERVED</h6>
+			<br/>
+		</div>
+	</body>
+</html>

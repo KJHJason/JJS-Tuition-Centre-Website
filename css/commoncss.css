@@ -1,0 +1,56 @@
+
+.bluebg{
+	background-color: #1d75bd;
+	width: 100%
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+table{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.navtext{
+	text-decoration: underline;
+	font-family: navi;
+}
+a{
+	color: inherit;
+}
+.bottombar{
+	color: white;
+	text-decoration: underline;
+	
+}
+.bottombar1{
+	color: white;
+}
+div{
+	width: 100%;
+	height: auto;
+}
+body{
+	margin: 0;
+}
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+	font-size: 300%;
+}
+
+.navbar .navbar-collapse{
+	text-align: center;
+}
+p{
+	font-size: 500%;
+}
+.footerhead{
+	color: white;
+}
+.dropdownlink{
+	font-family: navi;
+	text-align: center;
+	font-size: 137%;
+}

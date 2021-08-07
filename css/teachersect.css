@@ -1,0 +1,19 @@
+.container-fluid {
+			padding: 60px 50px;
+			background-color: #1d75bd;
+		}
+		.container-fluid2 {
+			padding: 60px 50px;
+			background-color: White;
+		}
+	.textbgb {
+			color:White;
+			font-family: navi;
+		}
+		.textbgw {
+			color: #1d75bd;
+			font-family: navi;
+		}
+.header {
+	text-align: center;
+		}

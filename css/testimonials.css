@@ -1,0 +1,85 @@
+.radius {
+	border-radius:50%;
+	width: 25%
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rolebgw {
+	color: #1d75bd;
+	text-align: Center;
+}
+.rolebgb {
+	color: white;
+	text-align: Center;
+}
+.logo {
+	width: 20%
+}
+.container-fluid {
+	padding: 30px 30px;
+	background-color: #1d75bd;
+	
+		}
+.container-fluid2 {
+	padding: 60px 50px;
+		background-color: White;
+		}
+.button {
+		padding: 20px 10px;
+		background-color: #1d75bd;
+		cursor: pointer;
+		margin: 6px 2px
+}
+.textbgb {
+	color:White;
+		}
+.textbgw {
+	color: #1d75bd;
+		}
+		.header {
+	text-align: center;
+	font-family: navi;
+		}
+.text {
+	text-indent: 50px
+}
+		.enroll {
+			text-align:center;
+			padding:20px
+		}
+		
+.col-40 {
+  float: left;
+  width: 40%;
+  margin-top: 6px;
+  padding-left:30px;
+}
+
+.col-60 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+}
+
+.col-50 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding-left:30px;
+  
+}
+.trow{
+	display: table-row;
+			}
+.underline {
+	text-decoration: underline;
+}
+.col-100 {
+	 float: left;
+  width: 100%;
+  margin-top: 6px;
+  padding-left:30px;
+}

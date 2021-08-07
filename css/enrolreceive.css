@@ -1,0 +1,29 @@
+.col-100 {
+  float: left;
+  width: 100%;
+  margin-top: 6px;
+  padding:15px
+}
+.container-fluid {
+			background-color: #1d75bd;
+		}
+.textbgb {
+			color: white;
+			
+		}
+.textbgw {
+			color: #1d75bd;
+			text-align: center
+			
+		}
+.button {
+	padding: 10px;
+		background-color: #1d75bd;
+		cursor: pointer;
+		color: white;
+}
+.container-fluid2 {
+	padding: 6px 5px;
+		background-color: White;
+	width: 100%
+		}

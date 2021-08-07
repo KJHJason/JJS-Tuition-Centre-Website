@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FAQ</title>
+		<link rel = "icon" href= "images/icon.png" type="image/x-icon"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/font.css"/>
+		<link rel="stylesheet" href="css/commoncss.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- remember to use bootstrap 3 if possible and responsive web design-->
+		<style>
+			.accordion {
+				background-color: #eee;
+				color: #444;
+				cursor: pointer;
+				padding: 10px;
+				width: 80%;
+				border: none;
+				text-align: center;
+				outline: none;
+				transition: 0.4s;
+			}
+			
+			.active, .accordion:hover {
+				background-color: #ccc;
+			}
+			
+			.accordion:after {
+				content: '\002B';
+				color: #777;
+				font-weight: bold;
+				margin-left: 5px;
+				float: right;
+				font-size: 20px;
+				transform: translate(-50%, -100%);
+			}
+
+			.active:after {
+				content: "\2212";
+			}
+			
+			.panel {
+				padding: 0 18px;
+				background-color: white;
+				max-height: 0;
+				overflow: hidden;
+				transition: max-height 0.2s ease-out;
+				width: 80%;
+			}
+			
+			table.form{
+				width= 100%;
+				height= auto;
+			}
+			
+			.qn{
+				color: #1d75bd;
+				font-weight: bold;
+			}
+			
+			.ans{
+				color: #1d75bd;
+				font-family: Georgia;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- navigation bar-->
+		<div class="bluebg" align="center">
+			<a href="home.html"><img src="images/logo.png" alt="JJS logo"/></a>
+		</div>
+		<div class="container">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav">
+						<li class="navtext"><a href="home.html" style="color: #1d75bd;">Home</a></li>
+						<li class="navtext"><a href="programmes.html" style="color: #1d75bd;">Programmes Offered</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle navtext" data-toggle="dropdown" style="color: #1d75bd;">About Us<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li class="dropdownlink"><a href="aboutus.html" style="color: #1d75bd;">Company Information</a></li>
+								<li class="dropdownlink"><a href="teachersect.html" style="color: #1d75bd;">Our Best Teachers</a></li>
+								<li class="dropdownlink"><a href="testimonial.html" style="color: #1d75bd;">Testimonial</a></li>
+							</ul>
+						</li>
+						<li class="navtext"><a href="contactus.html" style="color: #1d75bd;">Contact Us</a>	</li>
+						<li class="navtext"><a href="enrol.html" style="color: #1d75bd;">Enrolment</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		
+		<div>
+			<ul class="breadcrumb">
+				<li style="color: #1d75bd;"><a href="home.html">Home</a></li>
+				<li>FAQ</li>
+			</ul>
+		</div>
+		
+		<!-- start coding your own html page below this line-->
+		<div align="center">
+			<button class="accordion">
+				<h1 class="qn">
+					How do I pay my tuition fees?
+				</h1>
+			</button>
+			<div class="panel">
+				<h3 class="ans">
+					Every month, we hand out fee 'cards' that display the amount required to continue tuition for the next
+					month.
+					<br/>
+					Students are required to hand in these cards back together with the amount required before 
+					the end of the month that they received the card.
+					<br/> <br/>
+					You can also pay your child's tuition fees by going to our tuition centre and requesting to 
+					pay according to your child's NRIC number
+					<br/>
+					There, you can also pay for your child's tuition fees in advance.
+				</h3>
+			</div>
+				
+			<button class="accordion">
+				<h1 class="qn">
+					Are there private lessons?
+				</h1>
+			</button>
+			<div class="panel">
+				<h3 class="ans">
+					Currently, no. 
+					<br/>
+					Students are unable to have private 1-on-1 lessons with our teachers as we have limited
+					resources to handle them.
+					<br/> <br/>
+					However, Students that are unable to perform well are able to sign up for additional lessons 
+					an extra day on Sunday every week for free.
+					<br/>
+					Students that missed classes are able to replace them up to three times a month.
+				</h3>
+			</div>
+			
+			<button class="accordion">
+				<h1 class="qn">
+					What is your average class size?
+				</h1>
+			</button>
+			<div class="panel">
+				<h3 class="ans">
+					On average, each class has 15 students.
+					<br/>
+					Extra classes however only has 3-5 students on average.
+					<br/><br/>
+					Our classes can however have a maximum of 20 students.
+				</h3>
+			</div>
+			
+			<button class="accordion">
+				<h1 class="qn">
+					What are your class schedules?
+				</h1>
+			</button>
+			<div class="panel">
+				<h3 class="ans">
+					On weekdays, we typically start classes from 10am,
+					<br/>
+					with the last class ending at 9pm.
+					<br/><br/>
+					On weekends, we do not have any lessons for students
+					<br/>
+					as we will be doing administration duties.
+				</h3>
+			</div>
+			
+			<button class="accordion">
+				<h1 class="qn">
+					What are your teachers' qualification?
+				</h1>
+			</button>
+			<div class="panel">
+				<h3 class="ans">
+					All of our teachers at our tuition centres are graduates from the best
+					schools from all over the world. 
+					<br/><br/>
+					Additionally, our teachers are enrolled in a multifaceted training 
+					programme that includes modules 
+					<br/>
+					on pedagogy, content mastery, 
+					classroom delivery, relationship management and marking before 
+					they enter the classroom.
+					<br/>
+				</h3>
+			</div>
+				
+			<button class="accordion">
+				<h1 class="qn">
+					What happens if my child's lesson is on a public holiday?
+				</h1>
+			</button>
+			<div class="panel">
+				<h3 class="ans">
+					When a lesson is cancelled because of a public holiday,
+					It is considered that the lesson was missed.
+					<br/>
+					This means it can be replaced up to 3 times a month.
+				</h3>
+			</div>
+			
+			
+			<script>
+				var acc = document.getElementsByClassName("accordion");
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+				acc[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var panel = this.nextElementSibling;
+				if (panel.style.maxHeight) {
+				panel.style.maxHeight = null;
+				} else {
+				panel.style.maxHeight = panel.scrollHeight + "px";
+				} 
+				});
+				}
+			</script>
+		</div>
+		
+		<!-- hyperlinks and company copyright-->
+		<div class="bluebg" align="center">
+			<div class="container">
+				<br/>
+				<div class="col-sm-4">
+					<a href="home.html"><img src="images/logo.png" alt="JJS logo"/></a>
+				</div>
+				<div class="col-sm-4" align="center" >
+					<h5 class="footerhead">Useful links</h5>
+					<h6><a href="tc.html" class="bottombar">Terms &amp; Conditions</a></h6>
+					<h6><a href="privacy.html" class="bottombar">Privacy Policy</a></h6>
+					<h6><a href="faq.html" class="bottombar">FAQ</a></h6>
+				</div>
+				<div class="col-sm-4" align="center">
+					<h5 class="footerhead">Contact Details</h5>
+					<h6 class="bottombar1">Phone number: +65 6334 7832</h6>
+					<h6 class="bottombar1">Address: 180 Ang Mo Kio Avenue 8. Singapore 569830</h6>
+					<h6 class="bottombar1">Email: <a href="mailto:enquiry@JJSTuitionCentre.com.sg" style="text-decoration: underline;">enquiry@JJSTuitionCentre.com.sg</a></h6>
+				</div>
+			</div>
+			<h6 class="bottombar1">COPYRIGHT &copy; 2020 JJS Tuition Centre. ALL RIGHTS RESERVED</h6>
+			<br/>
+		</div>
+	</body>
+</html>
