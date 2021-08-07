@@ -3,5 +3,6 @@ Nanyang Polytechnic Year 0 (Polytechnic Foundation Programme) Web Publishing Gro
 I was in charge of the following webpages:
 - the overall template of the website
 - home.html
-- privacy.html<br />
+- privacy.html
+<br />
 Note: This assignment is not hosted live on the internet and it is meant for educational purposes.
